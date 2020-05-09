@@ -1,0 +1,24 @@
+{
+  "name": "estatistica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "pm": "pm2 start server.js --name Server-Estatistica"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.7",
+    "pm2": "^4.2.3",
+    "requirejs": "^2.3.6",
+    "webpack": "^4.42.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

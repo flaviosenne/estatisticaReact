@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+img {
+    position: relative;
+    display: block;
+    margin: auto;
+    max-width: 290px;
+    height: 200px;
+}
+.navbar{
+    background-color:  rgb(129, 120, 120);
+    color: white;
+    padding: 15px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: double 8px; 
+}
+
+.logo{
+    font-family: 'Source Code Pro', monospace;
+}
+.entrar{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.entrar:hover{
+    font-size: 18px;
+    text-decoration: underline;  
+}
+
+.Home {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    min-height: (100vh -20px);
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+
+.Home div{
+    max-height: 100%;
+    margin: 10px auto;
+    max-width: 80%;
+    display: grid;
+    border: 1px solid rgb(146, 142, 142);
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.Home div h1{
+    text-align: center;
+    margin: 10px auto;
+    display: block;
+    max-width: 100%;
+    font-size: 26px;
+}
+
+.Home div p{
+    text-align: justify;
+    padding: 15px;
+    margin: 10px auto; 
+    display: block;
+    max-width: 80%;
+    font-size: 16px;
+}
+
+.Home div button{
+    display: grid;
+    position: relative;
+    bottom: 0;
+    min-width: 50%;
+}
+
+@media(max-width: 860px){
+    .Home {
+        max-width: 90%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        justify-items: center;
+        min-height: (100vh -20px);
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+    .Home div p{
+        text-align: justify;
+        padding: 15px;
+        margin: 10px auto; 
+        display: block;
+        max-width: 80%;
+        font-size: 16px;
+    }
+    img {
+        max-width: 100%;
+        height: 200px;
+    }
+}
+
+@media(max-width: 600px){
+    .Container{
+        margin: 0 auto;
+    }
+    
+    img {
+        max-width: 100%;
+        height: 300px;
+    }
+    .Home {
+        max-width: 90%;
+        display: grid;
+        grid-template-columns: 3fr;
+        justify-content: center;
+        justify-items: center;
+        min-height: (100vh -20px);
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+    .Home div p{
+        text-align: justify;
+        padding: 15px;
+        margin: 10px auto; 
+        display: block;
+        max-width: 80%;
+        font-size: 16px;
+    }
+}
+
+
+.footer{
+    clear: both;
+    background-color:  rgb(129, 120, 120);
+    color: white;
+    padding: 15px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    border-top: double 8px; 
+}
+
+.footer a{
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
