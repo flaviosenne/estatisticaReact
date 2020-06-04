@@ -20,7 +20,7 @@ export default function Nav() {
                     <p>Essa aplicação permite-nos compreender os dados de uma distribuição
                      usando medidas de tendência central, medidas de dispersão, percentis,
                       quartis e decis, e medidas de distribuição.</p>
-                    <button>Acessar</button>
+                    <a href = "./descritive"><button >Acessar</button></a>
                 </div>
                 <div className="probabilidade">
                     <img src={imagem2} alt="" />
@@ -29,7 +29,7 @@ export default function Nav() {
                     É por meio de uma probabilidade, por exemplo, que podemos 
                     saber desde a chance de obter cara ou coroa no 
                     lançamento de uma moeda até a chance de erro em pesquisas.</p>
-                    <button>Acessar</button>
+                    <a href = "./probabilidade"><button > Acessar </button> </a>
                 </div>
 
                 <div className="projecao">
